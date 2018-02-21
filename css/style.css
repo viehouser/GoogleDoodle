@@ -1,0 +1,56 @@
+html {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488102/super-mario-bros-3-wallpaper.png");
+  background-size: cover;
+}
+
+/* Doodle Stage */
+#stage {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488102/2000px-Google_2015_logo.svg.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxright,
+.boxleft {
+  position: relative;
+}
+
+.coin,
+.coin-two {
+  position: absolute;
+  -webkit-animation: fadeOutUp 1s;
+          animation: fadeOutUp 1s;
+}
+
+.coin {
+  left: 280px;
+  top: 106px;
+  width: 70px;
+}
+
+.coin-two {
+  left: 170px;
+  top: 106px;
+  width: 70px;
+}
+
+.boxleft {
+  left: 156px;
+  top: 104px;
+  width: 100px;
+}
+
+.boxright {
+  left: 156px;
+  top: 104px;
+  width: 100px;
+}
+
+h1 {
+  margin: 0;
+}
